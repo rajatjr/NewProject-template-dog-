@@ -1,0 +1,66 @@
+/* Center the form vertically and horizontally */
+.custom-form {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  /* Style the form labels */
+  .custom-form label {
+    font-weight: bold;
+    color:rgb(1, 13, 51);
+  }
+  
+  /* Style the form inputs */
+  .custom-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(6, 236, 56);
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Style the submit button */
+  .custom-button {
+    width: 150px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #007bff; /* Primary button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Change button color on hover */
+  .custom-button:hover {
+    background-color: #eb0423; /* Darker shade of primary color */
+  }
+  
+  /* Style the page header */
+  h2 {
+    display: flex;
+    color: #007bff; /* Header color */
+  }
+  
+  /* Center the page header */
+  h2.text-center {
+    margin-bottom: 30px;
+  }
+  
+  /* Add margin to the bottom of the form for better spacing */
+  .custom-form {
+    margin-bottom: 30px;
+  }
+  
+  /* Customize the form fields */
+  .custom-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Style the icons */
+  .custom-form .fa {
+    margin-right: 10px;
+    color: #007bff; /* Icon color */
+  }
+  

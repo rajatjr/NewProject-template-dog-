@@ -1,0 +1,33 @@
+/* Add styles for the background image */
+.login-container {
+  background-image: url('https://wallpapercave.com/wp/wp2939993.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.login-form-container {
+
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/199/220/859/spots-reflections-soft-light-wallpaper-thumb.jpg');
+  background-color: rgba(255, 255, 255, 0.8); 
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+  margin: 0 auto; 
+}
+
+.login-form {
+  text-align: center;
+}
+
+
+.login-form-container.container {
+  width:500px;
+  height: 350px;
+}
+

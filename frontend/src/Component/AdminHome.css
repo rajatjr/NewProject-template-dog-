@@ -1,0 +1,93 @@
+.admin-home {
+  display: flex;
+
+}
+
+.admin-sidebar {
+  background-color: #333;
+  min-height: 100vh;
+  max-width: 100vh;
+ 
+}
+
+
+.button-box {
+  border: 2px solid rgb(62, 250, 5);
+  margin-top: 40px;
+  margin-left: 50px;
+  border-radius: 100px;
+
+}
+
+
+.adduser {
+  margin-top: 17px;
+  margin-left: 25%;
+  width: 150px;
+  border-radius: 50px;
+}
+
+
+.text-center {
+
+  margin-left: 500px;
+
+}
+
+
+.nav-item {
+  margin-right: 50px;
+  margin-bottom: 16.5%;
+  
+}
+
+.navbar-brand {
+  color: red;
+}
+
+main {
+  flex-grow: 1;
+  padding-top: 00px;
+  margin-bottom: 16.5%;
+  
+
+}
+
+.logout {
+  margin-top: 2px;
+ 
+}
+
+
+.btn.btn-success {
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+.btn.btn-danger {
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+.btn.btn-info {
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+/* Adjust the width and positioning of your sidebar */
+.AdminSidebar {
+  width: 250px; /* Adjust the width as needed */
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #333; /* Set the background color of the sidebar */
+  z-index: 1; /* Ensure the sidebar is behind other content */
+}
+
+/* Adjust the positioning of your table content */
+.card-body {
+  margin-left: 270px; /* Adjust the margin to provide space for the sidebar */
+  z-index: 2; /* Ensure the table content is in front of the sidebar */
+}
+
